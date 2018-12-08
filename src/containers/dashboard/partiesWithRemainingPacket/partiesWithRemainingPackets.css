@@ -1,0 +1,9 @@
+.headingOfPopup {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 6px;
+}
+
+.partiesWithRemainingPacketsWrapper {
+    max-height: 600px;
+}

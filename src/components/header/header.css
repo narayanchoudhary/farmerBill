@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#0087E2;
+    margin-bottom: 12px;
+}
+
+.header .navigation {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color:#0087E2;
+}
+
+.header .navigation a {
+	background: -webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+    border: 1px solid #057fd0;
+    border-left: 0px;
+	cursor:pointer;
+	color:#ffffff;
+	text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 112px;
+    margin: 0px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.header .navigation a:hover {
+	background:-webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background-color:#019ad2;
+    text-decoration: none;
+}
+.header .navigation a:active {
+    position: relative;
+    text-decoration: none;
+	top: 1px;
+}
+
+.header .navigation a:focus {
+    text-decoration: none;
+}
+
+.header .navigation .is-active {
+    background: -webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background-color: #019ad2;
+    color: #e2ff05;
+}
+
+.header .year {
+    width: 94px;
+    margin-right: 6px;
+}
+
+.header .navigation a:focus {
+    background: #9555AF;
+    color: white;
+    font-weight: 600;   
+}

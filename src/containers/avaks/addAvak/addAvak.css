@@ -1,0 +1,84 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    box-shadow: 0px 0px 6px #ccc;
+    margin: 20px;
+    padding: 4px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+.racks-container {
+    grid-row: 6;
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+}
+
+.racks {
+    text-align: center;
+}
+
+.is-open {
+    z-index: 999999;
+}
+
+.Select-menu-outer {
+    text-transform: capitalize;
+}
+
+.Select-value-label {
+    text-transform: capitalize;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    text-transform: none;
+}
+
+.avakForm .errorMessage {
+    color: red;
+}
+
+.avakForm {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    max-width: 1080px;
+}
+
+.newReceiptNumber {
+    text-align: center;
+    font-size: 18px;
+}
+
+.warning {
+    color: green;
+}
+
+.form-group label {
+    text-transform: capitalize;
+}
+
+.form-group {
+    margin-bottom: 6px !important;
+}
+
+.saveButtonGridItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
